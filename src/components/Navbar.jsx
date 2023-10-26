@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 import { styles } from '../styles'
 import { navLinks } from '../constants'
-import { logo, menu, close, jm } from '../assets'
+import { logo, menu, close, resume } from '../assets'
 
 const Navbar = () => {
 
@@ -21,7 +21,7 @@ const Navbar = () => {
           setActive("");
           window.scrollTo(0, 0);
         }}>
-          <img src={jm} alt="logo" className="w-9 h-9 object-contain" />
+          <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
           <p className="text-white text-[18px] font-bold cursos-pointer flex">
             Javi Mombiela &nbsp; 
             <span className="sm:block hidden"> | Software Engineer</span>
@@ -36,7 +36,13 @@ const Navbar = () => {
               } hover:text-white text-[18px] font-medium cursor-pointer`}
               onClick={() => setActive(link.title)}
             >
+              {
+              link.title === "Resume" ?
+              <a href={resume} target="_blank" rel="noreferrer">{link.title}</a>
+              // <a href={resume} download="Resume-Javi-Mombiela">{link.title}</a>
+               :
               <a href={`#${link.id}`}>{link.title}</a>
+              }
             </li>
           ))}
         </ul>
@@ -61,7 +67,13 @@ const Navbar = () => {
                         setActive(link.title);
                       }}
                     >
+                      {
+                      link.title === "Resume" ?
+                      <a href={resume} target="_blank" rel="noreferrer">{link.title}</a>
+                      // <a href={resume} download="Resume-Javi-Mombiela">{link.title}</a>
+                       :
                       <a href={`#${link.id}`}>{link.title}</a>
+                      }
                     </li>
                   ))}
                 </ul>
