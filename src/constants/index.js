@@ -4,6 +4,10 @@ import {
     creator,
     web,
     javascript,
+    java,
+    python,
+    postgre,
+    c,
     typescript,
     html,
     css,
@@ -65,6 +69,18 @@ import {
   
   const technologies = [
     {
+      name: "python",
+      icon: python,
+    },
+    {
+      name: "java",
+      icon: java,
+    },
+    {
+      name: "C",
+      icon: c,
+    },
+    {
       name: "HTML 5",
       icon: html,
     },
@@ -77,16 +93,8 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
       name: "React JS",
       icon: reactjs,
-    },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
     },
     {
       name: "Tailwind CSS",
@@ -101,6 +109,10 @@ import {
       icon: mongodb,
     },
     {
+      name: "PostgreSQL",
+      icon: postgre,
+    },
+    {
       name: "Three JS",
       icon: threejs,
     },
@@ -111,10 +123,6 @@ import {
     {
       name: "figma",
       icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
     },
   ];
   
