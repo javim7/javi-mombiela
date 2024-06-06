@@ -41,6 +41,8 @@ import connect4 from "./connect4.png";
 import memeflix from "./memeflix.jpeg";
 import quehubo from "./quehubo.png";
 
+import linkedin from "./linkedin.png";
+
 export {
   logo,
   jm,
@@ -81,4 +83,5 @@ export {
   carrent,
   jobit,
   tripguide,
+  linkedin,
 };
