@@ -181,7 +181,7 @@ import {
     },
   ];
   
-  const testimonials = [
+  const certificates = [
     {
       testimonial:
         "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
@@ -274,4 +274,4 @@ import {
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, certificates, projects };
