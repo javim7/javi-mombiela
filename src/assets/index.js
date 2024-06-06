@@ -28,15 +28,9 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
 import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
 import telus from "./company/telus.png";
 import tigo from "./company/tigo.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
 import connect4 from "./connect4.png";
 import memeflix from "./memeflix.jpeg";
 import quehubo from "./quehubo.png";
@@ -72,16 +66,10 @@ export {
   typescript,
   threejs,
   meta,
-  shopify,
-  starbucks,
-  tesla,
   telus,
   tigo,
   connect4,
   memeflix,
   quehubo,
-  carrent,
-  jobit,
-  tripguide,
   linkedin,
 };
