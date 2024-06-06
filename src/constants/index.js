@@ -200,70 +200,80 @@ import {
     },
   ];
   
-  const projects = [
+   const projects = [
     {
-      name: "Car Rent",
+      name: "Connect 4 AI",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "A Connect 4 AI utilizing heuristics, minimax, and alpha-beta pruning algorithms for strategic move selection in a competitive gaming environment.",
       tags: [
         {
-          name: "react",
+          name: "javascript",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "ai",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "heuristics",
           color: "pink-text-gradient",
         },
+        {
+          name: "minimax",
+          color: "orange-text-gradient",
+        },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: connect4,
+      source_code_link: "https://github.com/javim7/Connect4-AI",
     },
     {
-      name: "Job IT",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
+      "name": "Memeflix",
+      "description": "A streaming service (and Netflix clone) project, featuring database integration with technologies including React, HTML, CSS, MySQL, and AWS.",
+      "tags": [
         {
-          name: "react",
-          color: "blue-text-gradient",
+          "name": "react",
+          "color": "blue-text-gradient"
         },
         {
-          name: "restapi",
-          color: "green-text-gradient",
+          "name": "html",
+          "color": "green-text-gradient"
         },
         {
-          name: "scss",
-          color: "pink-text-gradient",
+          "name": "css",
+          "color": "pink-text-gradient"
         },
+        {
+          "name": "mysql",
+          "color": "orange-text-gradient"
+        },
+        {
+          "name": "aws",
+          "color": "white-text-gradient"
+        }
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      "image": memeflix,
+      "source_code_link": "https://github.com/her20053/Proyecto-2-BD"
     },
     {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
+      "name": "Quehubo 2.0",
+      "description": "A secure chat application featuring end-to-end encryption for individual and group chats, utilizing RSA and AES-128 CBC algorithms.",
+      "tags": [
         {
-          name: "nextjs",
-          color: "blue-text-gradient",
+          "name": "mernstack",
+          "color": "blue-text-gradient"
         },
         {
-          name: "supabase",
-          color: "green-text-gradient",
+          "name": "encryption",
+          "color": "green-text-gradient"
         },
         {
-          name: "css",
-          color: "pink-text-gradient",
+          "name": "security",
+          "color": "pink-text-gradient"
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
-    },
+      "image": quehubo,
+      "source_code_link": "https://github.com/javim7/Proyecto1-Cifrado-Informacion"
+    }
   ];
   
   export { services, technologies, experiences, certificates, projects };
