@@ -42,7 +42,7 @@ const About = () => {
       variants={fadeIn("", "", 0.1, 1)}
       className='mt-4 text-secondary text-[17px] leading-[30px]'
       >
-        I'm a computer science student from Guatemala currently in my 4th year of undergraduate studies. Through my coursework, I've gained expertise in a variety of programming languages, and skills.
+        I'm a computer science student from Guatemala currently in my 5th year of undergraduate studies. Through my coursework, I've gained expertise in a variety of programming languages, and skills.
         I am a lifelong learner, and I enjoy exploring new skills and programming languages. For me, every day is an opportunity to learn something new and exciting in the tech world. I am always on the lookout for new challenges and projects that can help me grow my skills and experience.
         Overall, I'm a dedicated and enthusiastic computer science student with a passion for learning and a drive to succeed. I'm excited to continue growing my skills and experience as I progress through my studies and pursue my career in the tech field.
       </motion.p>

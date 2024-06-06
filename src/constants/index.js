@@ -240,10 +240,6 @@ import {
           "name": "mysql",
           "color": "orange-text-gradient"
         },
-        {
-          "name": "aws",
-          "color": "white-text-gradient"
-        }
       ],
       "image": memeflix,
       "source_code_link": "https://github.com/her20053/Proyecto-2-BD"
