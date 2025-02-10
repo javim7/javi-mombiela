@@ -135,9 +135,9 @@ import {
       iconBg: "#E6DEDD",
       date: "September 2024 - Present",
       points: [
-        "Implementing Large Language Models (LLMs) like Llama 3.2 to deliver customized AI solutions for clients.",
-        "Collaborating with a multidisciplinary team to design and develop the context and functions offered by LLM-based services, ensuring alignment with client needs and expectations.",
-        "Actively participating in brainstorming sessions to explore innovative applications of LLMs for enhanced client engagement.",
+        "Contributing to the development of a company chatbot using pre-existing LLM models (e.g., Llama 3.2) to provide AI-driven services for clients.",
+        "Collaborating with the team to design context and functions that enhance the chatbot’s capabilities, ensuring it delivers accurate, personalized responses.",
+        "Applying data processing and analysis techniques to prepare client data, optimizing the chatbot's performance and interactions.",
       ],
     },
     {
