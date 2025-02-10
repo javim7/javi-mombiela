@@ -22,6 +22,7 @@ import {
     meta,
     telus, 
     tigo,
+    plusti,
     connect4,
     memeflix,
     quehubo,
@@ -128,15 +129,15 @@ import {
   
   const experiences = [
     {
-      title: "FedEx Call Center Agent",
-      company_name: "Telus International",
-      icon: telus,
+      title: "Software Developer",
+      company_name: "Plus Teschnologies and Innovations",
+      icon: plusti,
       iconBg: "#E6DEDD",
-      date: "July 2019 - December 2019",
+      date: "September 2024 - Present",
       points: [
-        "Demonstrating strong communication skills and attention to detail while accurately documenting customer interactions and maintaining high levels of professionalism in a fast-paced call center environment.",
-        "Providing exceptional customer service to FedEx customers, effectively addressing inquiries, resolving issues, and ensuring timely delivery solutions.",
-        "Utilizing problem-solving skills to handle escalated calls and achieve customer satisfaction while adhering to company policies and procedures.",
+        "Implementing Large Language Models (LLMs) like Llama 3.2 to deliver customized AI solutions for clients.",
+        "Collaborating with a multidisciplinary team to design and develop the context and functions offered by LLM-based services, ensuring alignment with client needs and expectations.",
+        "Actively participating in brainstorming sessions to explore innovative applications of LLMs for enhanced client engagement.",
       ],
     },
     {
@@ -151,19 +152,18 @@ import {
         "Assisting in the development and maintenance of web applications, ensuring responsive design and optimizing performance for a better user experience.",
       ],
     },
-    // {
-    //   title: "React.js Developer",
-    //   company_name: "Starbucks",
-    //   icon: tigo,
-    //   iconBg: "#383E56",
-    //   date: "March 2020 - April 2021",
-    //   points: [
-    //     "Developing and maintaining web applications using React.js and other related technologies.",
-    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //     "Implementing responsive design and ensuring cross-browser compatibility.",
-    //     "Participating in code reviews and providing constructive feedback to other developers.",
-    //   ],
-    // },
+    {
+      title: "FedEx Call Center Agent",
+      company_name: "Telus International",
+      icon: telus,
+      iconBg: "#E6DEDD",
+      date: "July 2019 - December 2019",
+      points: [
+        "Demonstrating strong communication skills and attention to detail while accurately documenting customer interactions and maintaining high levels of professionalism in a fast-paced call center environment.",
+        "Providing exceptional customer service to FedEx customers, effectively addressing inquiries, resolving issues, and ensuring timely delivery solutions.",
+        "Utilizing problem-solving skills to handle escalated calls and achieve customer satisfaction while adhering to company policies and procedures.",
+      ],
+    },
   ];
 
   

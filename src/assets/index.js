@@ -30,6 +30,7 @@ import threejs from "./tech/threejs.svg";
 import meta from "./company/meta.png";
 import telus from "./company/telus.png";
 import tigo from "./company/tigo.png";
+import plusti from "./company/plusti.png";
 
 import connect4 from "./connect4.png";
 import memeflix from "./memeflix.jpeg";
@@ -68,6 +69,7 @@ export {
   meta,
   telus,
   tigo,
+  plusti,
   connect4,
   memeflix,
   quehubo,
