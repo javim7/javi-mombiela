@@ -35,11 +35,13 @@ const Contact = () => {
 
     emailjs
       .send(
-        'service_oi0xezq',
-        'template_hk840io',
+        'service_h8c7bfc',
+        'template_ias8h4g',
         {
           from_name: form.name,
-          to_name: "Javier",
+          to_name: "Javier Mombiela",
+          page_name: "Portfolio",
+          subject: "Contact from Portfolio",
           from_email: form.email,
           to_email: "rjmombiela@gmail.com",
           message: form.message,
