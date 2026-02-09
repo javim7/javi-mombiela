@@ -202,81 +202,13 @@ import {
       description:
         "A Connect 4 AI utilizing heuristics, minimax, and alpha-beta pruning algorithms for strategic move selection in a competitive gaming environment.",
       tags: [
-        {
-          name: "javascript",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "ai",
-          color: "green-text-gradient",
-        },
-        {
-          name: "heuristics",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "minimax",
-          color: "orange-text-gradient",
-        },
+        { name: "javascript", color: "blue-text-gradient" },
+        { name: "ai", color: "green-text-gradient" },
+        { name: "heuristics", color: "pink-text-gradient" },
+        { name: "minimax", color: "orange-text-gradient" },
       ],
       image: connect4,
       source_code_link: "https://github.com/javim7/Connect4-AI",
-    },
-    {
-      "name": "Memeflix",
-      "description": "A streaming service (and Netflix clone) project, featuring database integration with technologies including React, HTML, CSS, MySQL, and AWS.",
-      "tags": [
-        {
-          "name": "react",
-          "color": "blue-text-gradient"
-        },
-        {
-          "name": "html",
-          "color": "green-text-gradient"
-        },
-        {
-          "name": "css",
-          "color": "pink-text-gradient"
-        },
-        {
-          "name": "mysql",
-          "color": "orange-text-gradient"
-        },
-      ],
-      "image": memeflix,
-      "source_code_link": "https://github.com/her20053/Proyecto-2-BD"
-    },
-    {
-      "name": "Quehubo 2.0",
-      "description": "A secure chat application featuring end-to-end encryption for individual and group chats, utilizing RSA and AES-128 CBC algorithms.",
-      "tags": [
-        {
-          "name": "mernstack",
-          "color": "blue-text-gradient"
-        },
-        {
-          "name": "encryption",
-          "color": "green-text-gradient"
-        },
-        {
-          "name": "security",
-          "color": "pink-text-gradient"
-        },
-      ],
-      "image": quehubo,
-      "source_code_link": "https://github.com/javim7/Proyecto1-Cifrado-Informacion"
-    },
-    {
-      name: "Mombii.com",
-      description: "Coming soon landing page for Mombii — a marketplace to explore, buy, and sell in Guatemala. Features the brand mascot and countdown.",
-      tags: [
-        { name: "typescript", color: "blue-text-gradient" },
-        { name: "css", color: "green-text-gradient" },
-        { name: "nextjs", color: "pink-text-gradient" },
-      ],
-      image: mombii,
-      source_code_link: "https://github.com/javim7/mombii-landing",
-      demo_link: "https://mombii-landing.vercel.app/",
     },
     {
       name: "Hacienda Guadalupe",
@@ -289,6 +221,41 @@ import {
       image: haciendaGuadalupe,
       source_code_link: "https://github.com/javim7/hacienda-guadalupe",
       demo_link: "https://hacienda-guadalupe.com",
+    },
+    {
+      name: "Mombii.com",
+      description: "Marketplace landing page for the pre-launch campaign of Mombii, a platform to explore, buy, and sell in Guatemala. I am co-founding it with my siblings.",
+      tags: [
+        { name: "typescript", color: "blue-text-gradient" },
+        { name: "css", color: "green-text-gradient" },
+        { name: "nextjs", color: "pink-text-gradient" },
+      ],
+      image: mombii,
+      source_code_link: "https://github.com/javim7/mombii-landing",
+      demo_link: "https://mombii-landing.vercel.app/",
+    },
+    {
+      name: "Memeflix",
+      description: "A streaming service (and Netflix clone) project, featuring database integration with technologies including React, HTML, CSS, MySQL, and AWS.",
+      tags: [
+        { name: "react", color: "blue-text-gradient" },
+        { name: "html", color: "green-text-gradient" },
+        { name: "css", color: "pink-text-gradient" },
+        { name: "mysql", color: "orange-text-gradient" },
+      ],
+      image: memeflix,
+      source_code_link: "https://github.com/her20053/Proyecto-2-BD",
+    },
+    {
+      name: "Quehubo 2.0",
+      description: "A secure chat application featuring end-to-end encryption for individual and group chats, utilizing RSA and AES-128 CBC algorithms.",
+      tags: [
+        { name: "mernstack", color: "blue-text-gradient" },
+        { name: "encryption", color: "green-text-gradient" },
+        { name: "security", color: "pink-text-gradient" },
+      ],
+      image: quehubo,
+      source_code_link: "https://github.com/javim7/Proyecto1-Cifrado-Informacion",
     },
   ];
   

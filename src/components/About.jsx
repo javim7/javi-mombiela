@@ -4,29 +4,27 @@ import { motion } from 'framer-motion'
 
 import { styles } from '../styles'
 import { services } from '../constants'
-import {fadeIn, textVariant} from '../utils/motion'
+import { fadeIn, textVariant, staggerContainer } from '../utils/motion'
 import { SectionWrapper } from '../hoc'
 
 const ServiceCard = ({ index, title, icon}) => {
   return (
-    <Tilt className="xs:w-[250px] w-full">
-      <motion.div 
-      variants={fadeIn("right", "spring", 0.5 * index, 0.75)}
-      className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'
+    <motion.div
+      variants={fadeIn("right", "spring", 0, 0.75)}
+      className="w-full sm:w-[calc((100%-1.75rem)/2)] md:w-[calc((100%-2*1.75rem)/3)] xl:w-[calc((100%-3*1.75rem)/4)] flex justify-center"
+    >
+      <Tilt
+        options={{ max: 45, scale: 1, speed: 450 }}
+        className="w-full md:max-w-[360px]"
       >
-        <div
-          options={{
-            max: 45,
-            scale: 1,
-            speed: 450
-          }}
-          className='bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'
-        >
-          <img src={icon} alt={title} className='w-16 h-16 object-contain' />
-          <h3 className='text-white text-[20px] font-bold text-center'>{title}</h3>
+        <div className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'>
+          <div className='bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'>
+            <img src={icon} alt={title} className='w-16 h-16 object-contain' />
+            <h3 className='text-white text-[20px] font-bold text-center'>{title}</h3>
+          </div>
         </div>
-      </motion.div>
-    </Tilt>
+      </Tilt>
+    </motion.div>
   )
 }
 
@@ -47,11 +45,14 @@ const About = () => {
         Overall, I'm a dedicated and enthusiastic professional with a passion for technology and innovation. As I step into my career, I am excited to apply my knowledge, collaborate with like-minded professionals, and make meaningful contributions to impactful projects in the tech world.
       </motion.p>
 
-      <div className='mt-20 flex flex-wrap gap-10'>
+      <motion.div
+        variants={staggerContainer(0.1, 0.05)}
+        className='mt-20 flex flex-wrap justify-center gap-7'
+      >
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
-      </div>
+      </motion.div>
     </>
   )
 }
