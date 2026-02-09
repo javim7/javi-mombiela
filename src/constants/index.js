@@ -26,6 +26,8 @@ import {
     connect4,
     memeflix,
     quehubo,
+    mombii,
+    haciendaGuadalupe,
     threejs,
     linkedin,
   } from "../assets";
@@ -263,7 +265,31 @@ import {
       ],
       "image": quehubo,
       "source_code_link": "https://github.com/javim7/Proyecto1-Cifrado-Informacion"
-    }
+    },
+    {
+      name: "Mombii.com",
+      description: "Coming soon landing page for Mombii — a marketplace to explore, buy, and sell in Guatemala. Features the brand mascot and countdown.",
+      tags: [
+        { name: "typescript", color: "blue-text-gradient" },
+        { name: "css", color: "green-text-gradient" },
+        { name: "nextjs", color: "pink-text-gradient" },
+      ],
+      image: mombii,
+      source_code_link: "https://github.com/javim7/mombii-landing",
+      demo_link: "https://mombii-landing.vercel.app/",
+    },
+    {
+      name: "Hacienda Guadalupe",
+      description: "Full website for Hacienda Guadalupe — tradition and agricultural and livestock innovation in Guatemala, with regenerative and sustainable management.",
+      tags: [
+        { name: "nextjs", color: "blue-text-gradient" },
+        { name: "typescript", color: "green-text-gradient" },
+        { name: "tailwindcss", color: "pink-text-gradient" },
+      ],
+      image: haciendaGuadalupe,
+      source_code_link: "https://github.com/javim7/hacienda-guadalupe",
+      demo_link: "https://hacienda-guadalupe.com",
+    },
   ];
   
   export { services, technologies, experiences, certificates, projects };

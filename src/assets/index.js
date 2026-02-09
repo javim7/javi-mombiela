@@ -6,6 +6,7 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import externalLink from "./external-link.svg";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -35,6 +36,8 @@ import plusti from "./company/plusti.png";
 import connect4 from "./connect4.png";
 import memeflix from "./memeflix.jpeg";
 import quehubo from "./quehubo.png";
+import mombii from "./mombii.png";
+import haciendaGuadalupe from "./hacienda-guadalupe.png";
 
 import linkedin from "./linkedin.png";
 
@@ -47,6 +50,7 @@ export {
   mobile,
   web,
   github,
+  externalLink,
   menu,
   close,
   css,
@@ -73,5 +77,7 @@ export {
   connect4,
   memeflix,
   quehubo,
+  mombii,
+  haciendaGuadalupe,
   linkedin,
 };
